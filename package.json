@@ -15,6 +15,7 @@
     "@nativescript/angular": "^12.2.0",
     "@nativescript/core": "~8.1.1",
     "@nativescript/theme": "~3.0.1",
+    "nativescript-emulator-reload": "^1.2.0",
     "rxjs": "~7.3.0",
     "zone.js": "~0.11.4"
   },

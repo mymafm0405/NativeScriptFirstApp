@@ -4,3 +4,6 @@ Label {
   text-align: center;
   font-weight: bold;
 }
+GridLayout {
+  margin-top: 100;
+}
