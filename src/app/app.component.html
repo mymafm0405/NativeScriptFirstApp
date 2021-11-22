@@ -1,7 +1,4 @@
 <StackLayout>
   <ns-challenge-edit (input)="setChallenge($event)"></ns-challenge-edit>
-  <ns-current-challenge
-    [currentChallengeName]="currentName"
-  ></ns-current-challenge>
-  <!-- <ns-flex></ns-flex> -->
+  <ns-current-challenge [challenges]="challenges"></ns-current-challenge>
 </StackLayout>

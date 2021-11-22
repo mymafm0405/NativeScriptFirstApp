@@ -5,9 +5,9 @@ import { Component } from "@angular/core";
   templateUrl: "./app.component.html",
 })
 export class AppComponent {
-  currentName = "";
+  challenges: string[] = [];
 
   setChallenge(name: string) {
-    this.currentName = name;
+    this.challenges.push(name);
   }
 }
