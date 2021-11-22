@@ -1,0 +1,9 @@
+TextField {
+  width: 66%;
+}
+Button {
+  width: 33%;
+}
+FlexboxLayout {
+  margin-top: 100;
+}

@@ -1,13 +1,3 @@
-<GridLayout rows="auto, auto" columns="2*, *">
-  <TextField
-    hint="Enter a challenge"
-    [(ngModel)]="challengeDescription"
-  ></TextField>
-  <Button
-    col="1"
-    class="btn"
-    (tap)="onSetChallenge()"
-    text="Set a challenge"
-  ></Button>
-  <Label row="1" colspan="2" [text]="currentChallengeName"></Label>
-</GridLayout>
+<StackLayout>
+  <Label [text]="currentChallengeName" horizontalAlignment="center"></Label>
+</StackLayout>

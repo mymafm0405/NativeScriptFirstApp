@@ -1,9 +1,5 @@
 Label {
   color: purple;
   font-size: 30;
-  text-align: center;
   font-weight: bold;
-}
-GridLayout {
-  margin-top: 100;
 }
